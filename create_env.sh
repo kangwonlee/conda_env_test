@@ -12,4 +12,4 @@ conda update -q conda;
 echo "conda info -a =============================="
 conda info -a
 echo "create test-environment ===================="
-conda env create -n test-environment -f $YML_PATH
+conda env create --name test-environment --file $YML_PATH
