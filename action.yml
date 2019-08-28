@@ -8,7 +8,7 @@ description: 'Setup Conda Environment'
 inputs:
   yml:
     description: 'Path to a yml file containing environment recipe'
-    required: False
+    required: True
 runs: 
   using: 'node12'
   main: 'setup-conda.js'
