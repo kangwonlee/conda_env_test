@@ -1,0 +1,14 @@
+# References
+# https://github.com/actions/setup-python
+# https://help.github.com/en/articles/metadata-syntax-for-github-actions
+
+name: 'Setup Conda Environment'
+author: 'KangWon LEE'
+description: 'Setup Conda Environment'
+inputs:
+  yml:
+    description: 'Path to a yml file containing environment recipe'
+    required: False
+runs: 
+  using: 'node12'
+  main: 'setup-conda.js'
